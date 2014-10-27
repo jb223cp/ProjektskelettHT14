@@ -180,3 +180,6 @@ body {
    .reveal section h2{
      margin-top:10px;
    }
+   .reveal section smallest{
+     font-size:14px;
+   }
