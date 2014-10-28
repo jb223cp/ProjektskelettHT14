@@ -152,17 +152,17 @@ body {
   color: #8b743d; }
   
   div{
-    /*background-color:orange;*/
+    background-color:##6D929B;
   }
-   blockquote{
-     font-size:0.2em;
+   .reveal section blockquote{
+     font-size:0.8em;
    }
    img{
       box-shadow: 10px 10px 5px #888888;
    }
    
    .reveal section footer{
-     background-color:#EAF8F8;
+     background-color:#C1DAD6;
      border-top-color:red;
      border-top-style:solid;
      border-top-width:2px;
@@ -170,16 +170,21 @@ body {
      text-decoration:italic;
    }
    .reveal section header{
-     background-color:#EAF8F8;
+     background-color:#C1DAD6;
      border-bottom-color:red;
      border-bottom-style:solid;
      border-bottom-width:2px;
-     height:10%
-     padding-bottom:5%;
+     height:20%;
+     float:top;
    }
    .reveal section h2{
      margin-top:10px;
    }
    .reveal section smallest{
      font-size:14px;
+   }
+   .reveal section{
+     padding-top:0;
+     background-color:#E8D0A9;
+     box-shadow: 10px 10px 5px #888888;
    }
