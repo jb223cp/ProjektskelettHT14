@@ -152,7 +152,7 @@ body {
   color: #8b743d; }
   
   div{
-    background-color:##6D929B;
+    background-color:#D7F3F3;
   }
    .reveal section blockquote{
      font-size:0.8em;
@@ -162,7 +162,8 @@ body {
    }
    
    .reveal section footer{
-     background-color:#C1DAD6;
+     color:#D3D6D6;
+     background-color:#505A5A;
      border-top-color:red;
      border-top-style:solid;
      border-top-width:2px;
@@ -170,7 +171,8 @@ body {
      text-decoration:italic;
    }
    .reveal section header{
-     background-color:#C1DAD6;
+     color:#D3D6D6;
+     background-color:#505A5A;
      border-bottom-color:red;
      border-bottom-style:solid;
      border-bottom-width:2px;
@@ -180,11 +182,21 @@ body {
    .reveal section h2{
      margin-top:10px;
    }
+   .reveal h1{
+     font-size:2em;
+     margin-top:10px;
+   }
    .reveal section smallest{
      font-size:14px;
    }
    .reveal section{
      padding-top:0;
-     background-color:#E8D0A9;
+     background-color:#D7E7AD;
      box-shadow: 10px 10px 5px #888888;
    }
+   
+   .reveal section ul{
+     list-style-type: none;
+     font-size:0.8em;
+   }
+   
