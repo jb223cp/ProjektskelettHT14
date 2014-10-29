@@ -198,5 +198,13 @@ body {
    .reveal section ul{
      list-style-type: none;
      font-size:0.8em;
+     text-align:center;
+     margin-bottom:10%;
+   }
+   .reveal section li{
+     text-height:5%;
+   }
+   .reveal section img{
+     margin-bottom:10%;
    }
    
